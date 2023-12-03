@@ -1,10 +1,15 @@
 import streamlit as st
+
+# Find more emojis here: https://www.webfx.com/tools/emoji-cheat-sheet/
 st.set_pge_config(page_title="My Webpage", page_icon=":tada:", layout="wide")
+
+# ---- HEADER SECTION ----
 with st.container():
   st.subheader("Hi, I am Pearl :wave:")
   st.title("A Computer Engineering Student from SNSU")
   st.write("I am passionate to learn more about this amazing course")
 
+# ---- WHAT I DO ----
 with st.container():
   st.write("---")
   left_column, right_column = st.columns(2)
@@ -19,4 +24,5 @@ with st.container():
        * ROAD TRIP/ISLAND HOPPING
         """
     )
+    st.write("My Github Account >](https://github.com/Pearllatras/pearllatras/edit/main/pearls.py")
     
