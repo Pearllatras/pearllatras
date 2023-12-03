@@ -35,6 +35,6 @@ with st.container():
        * ROAD TRIP/ISLAND HOPPING
         """
     )
-    st.write("My Github Account >](https://github.com/Pearllatras/pearllatras/edit/main/pearls.py")
-    with rigth_column
+      
+    with rigth_column:
     st.lottie(lottie_coding, height=400, key="coding")
