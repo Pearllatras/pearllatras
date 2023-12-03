@@ -18,7 +18,7 @@ Lottie_coding= load_lottieurl("https://app.lottiefiles.com/animation/571d91e8-a4
 with st.container():
   st.subheader("Hi, I am Pearl :wave:")
   st.title("A Computer Engineering Student from SNSU")
-  st.write("I am passionate to learn more about this amazing course")
+  st.write("I am here to learn more about this amazing course")
 
 # ---- WHAT I DO ----
 with st.container():
@@ -34,7 +34,6 @@ with st.container():
        * SWIMMING
        * ROAD TRIP/ISLAND HOPPING
         """
-    )
-      
+    )   
     with rigth_column:
-    st_lottie(lottie_coding, height= 400, key="coding")
+    st_lottie(lottie_coding, height=300, key="coding")
