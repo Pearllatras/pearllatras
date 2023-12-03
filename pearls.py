@@ -9,7 +9,7 @@ def load_lottieurl(url):
     r = requests.get(url)
     if r.status_code != 200:
         return None
-  return r.json()
+    return r.json()
 
 # ---- LOAD ASSETS ----
 Lottie_coding= load_lottieurl("https://app.lottiefiles.com/animation/571d91e8-a4f0-4f44-9176-da69a0cdb146")
